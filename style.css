@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(255, 123, 0);
+
+}
+
+header{
+    height: 130px;
+    border: solid 1px black;
+}
+
+header h1{
+    padding: 40px;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+}
+
+main{
+    display: flex;
+    padding: 30px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    transform: scale(1.05);
+}
+
+@media (max-width:600px){
+    main{
+        flex-direction: column;
+    }
+}
+
+.op1{
+    border: dotted;
+    max-height: 450px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.op1 h2{
+    font-size: 20pt;
+    padding-bottom: 10px;
+}
+
+.op1 img{
+    width: 300px;
+    height: 200px;
+    border: solid 1px;
+}
+
+.op1 figcaption{
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.op2{
+    border: dotted;
+    max-height: 450px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.op2 h2{
+    font-size: 20pt;
+    padding-bottom: 10px;
+}
+
+.op2 img{
+    width: 300px;
+    height: 200px;
+    border: solid 1px;
+}
+
+.op2 figcaption{
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.op3{
+    border: dotted;
+    max-height: 450px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.op3 h2{
+    font-size: 20pt;
+    padding-bottom: 10px;
+}
+
+.op3 img{
+    width: 300px;
+    height: 200px;
+    border: solid 1px;
+}
+
+.op3 figcaption{
+    font-size: 15pt;
+    text-align: justify;
+}
